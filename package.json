@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "~6.13.2",
-    "aws-amplify": "~6.15.10",
+    "@aws-amplify/ui-react": "^6.15.2",
+    "@aws-sdk/client-bedrock-runtime": "^3.1011.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.1011.0",
+    "@types/material-ui": "^0.21.18",
+    "aws-amplify": "^6.16.3",
+    "aws-cdk-lib": "^2.243.0",
     "react": "~18.3.1",
     "react-dom": "~18.3.1"
   },
@@ -20,9 +24,9 @@
     "npm": ">= 10.8.0"
   },
   "devDependencies": {
-    "@aws-amplify/backend": "~1.19.0",
-    "@aws-amplify/backend-cli": "~1.8.1",
-    "@eslint/compat":  "~2.0.1",
+    "@aws-amplify/backend": "^1.21.1",
+    "@aws-amplify/backend-cli": "^1.8.2",
+    "@eslint/compat": "~2.0.1",
     "@eslint/eslintrc": "~3.3.3",
     "@eslint/js": "~9.39.2",
     "@types/react": "~18.3.27",
